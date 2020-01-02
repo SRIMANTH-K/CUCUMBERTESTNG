@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Orangehrm testing functionality",
+        "description": "",
+        "id": "hrmorange-login-feature;orangehrm-testing-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 32378860200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is already on Login Page",
+            "match": {
+              "location": "SetUpStepDefinition.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7250400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of login page is orangehrm",
+            "match": {
+              "location": "SetUpStepDefinition.title_of_login_page_is_orangehrm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180304100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "admin123",
+                  "offset": 25
+                }
+              ],
+              "location": "SetUpStepDefinition.user_enters_username_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2368451200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "SetUpStepDefinition.user_clicks_on_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16951300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is on home page",
+            "match": {
+              "location": "SetUpStepDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 183165100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "SetUpStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HRMorange login feature",
+    "description": "",
+    "id": "hrmorange-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Users/srima/workspace1/CUCUMBERTESTNG/src/test/java/FeatureFile/setup.feature"
+  }
+]
